@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Choose a Website </div>
+        <div class="box">
+            <label for="" class="option1">
+                <input type="radio" name="course">
+                <div class="text">w3 schools</div>
+            </label>
+            <label for="" class="option2">
+                <input type="radio" name="course">
+                <div class="text">Tutorials Point</div>
+            </label>
+            <label for="" class="option3">
+                <input type="radio" name="course">
+                <div class="text">MDN</div>
+            </label>
+            <label for="" class="option4">
+                <input type="radio" name="course">
+                <div class="text">Javapoint</div>
+            </label>
+
+            <label for="" class="option5">
+                <input type="radio" name="course">
+                <div class="text">Geeks for Geeks</div>
+            </label>
+        </div>
+    </div>
+</div>
+<div class="wrapper1">
+    <div class="title1">Choose your App</div>
+    <div class="box1">
+        <label for="" class="choice1">
+            <input type="checkbox" name="course">
+            <div class="text">Whatsapp</div>
+        </label>
+        <label for="" class="choice2">
+            <input type="checkbox" name="course">
+            <div class="text">Twitter</div>
+        </label>
+        <label for="" class="checkbox">
+            <input type="checkbox" name="course">
+            <div class="text">Youtube</div>
+        </label>
+        <label for="" class="checkbox">
+            <input type="checkbox" name="course">
+            <div class="text">Snapshot</div>
+        </label>
+
+        
+    </div>
+</div>
+</div>
+<h3><label for="color">Select your favourite flower</label></h3>
+<select name="color" id="colours">
+  <option value="black">Rose</option>
+  <option value="red">Jasmine</option>
+  <option value="blue">Daisy</option>
+  <option value="white" >Lotus</option>
+</select>
+
+<div class="marqueetext">
+    <marquee behavior="" direction="left">
+        <h3>Welcome to Webpotters community! I am Karthami! I am Happy to be here!
+        </h3>
+    </marquee>
+    </div>
+
+    <button id="scroll-to-top">Back to Top</button>
+
+
+
+
+<script>
+    const scrollToTopButton = document.getElementById('scroll-to-top');
+
+scrollToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+
+</script>
+    
+</body>
+</html>
